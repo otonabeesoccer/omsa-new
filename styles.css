@@ -1,0 +1,99 @@
+
+
+.masthead, .news, .faqs, .contact {
+  min-height: 40vh;
+}
+
+.masthead {
+  text-align: center;
+  color: white;
+
+  background-image: url(http://uploads.webflow.com/58c6f47…/58d2994…_bg-ball.png), radial-gradient(circle closest-corner at 48% 112%, #3e97e6, #2c5499), linear-gradient(180deg, #3470b9, #3470b9);
+  background-position: 90% 125%, 0px 0px, 0px 0px;
+  background-size: 500px, auto, auto;
+  background-repeat: no-repeat, repeat, repeat;
+}
+
+.masthead h1, .masthead h2 {
+  padding-bottom: 2rem;
+}
+
+.masthead .cta {
+  padding-top:  2rem;
+}
+/*
+.masthead h1 {
+  text-align: center;
+  color: #FFFFFF;
+  letter-spacing: -0.05rem;
+  width: 100%;
+  font-size: 3.125em;
+  line-height: 1.25;
+  font-weight: 700;
+}
+*/
+
+.section-header {
+  padding: 4rem 2rem;
+}
+
+.section-header h1, .masthead h1 {
+  color: #fff;
+  font-size: 3.8rem;
+  line-height: 4.6rem;
+  letter-spacing: -0.06px;
+  text-decoration: none;
+  text-shadow: 0 4px 3px rgba(0, 0, 0, .2), 0 8px 13px rgba(0, 0, 0, .1), 0 18px 23px rgba(0, 0, 0, .1);
+}
+
+.masthead h3 {
+    font-weight: 400;
+}
+
+.cta .btn {
+  padding: 1rem 2.6rem 1.2rem;
+  border: 4px none transparent;
+  border-radius: 30px;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2));
+  font-size: 1rem;
+  letter-spacing: -0.02rem;
+border: 2px solid #ddd;
+  transition: all .25s ease;
+}
+
+.cta .btn:hover {
+  border: 2px solid #fffc00;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.28);
+}
+
+.news {
+  background-image: url(http://uploads.webflow.com/58c6f4785a5b181278692cba/58d298995a1a9a0c18f466ea_bg-grass.png), radial-gradient(circle closest-corner at 57% 83%, #8dc95e, #68b12e), linear-gradient(180deg, #4caf50, #4caf50);
+  background-position: 50% 100%, 0px 0px, 0px 0px;
+  background-size: 506px, auto, auto;
+  background-repeat: repeat-x, repeat, repeat;
+}
+
+.faqs {
+  background-image: url(http://uploads.webflow.com/58c6f47…/58d2cbe…_bg-shoes.png), radial-gradient(circle closest-corner at 49% 22%, #ffdc52, #fcb243), linear-gradient(180deg, #fed149, #fed149);
+  background-position: 100% 114%, 0px 0px, 0px 0px;
+  background-size: 400px, auto, auto;
+  background-repeat: no-repeat, repeat, repeat;
+}
+
+.faq-deck {
+  margin-top: -2rem;
+}
+
+.faq-card {
+  min-height: 300px;
+  border-radius: 30px;
+  background: white;
+}
+
+
+.contact {
+  background-image: url(http://uploads.webflow.com/58c6f47…/58d2c6d…_bg-phone-temp.png), radial-gradient(circle farthest-corner at 50% 50%, #f37747, #d11a1a), linear-gradient(180deg, #db3535, #db3535);
+  background-position: 100% 100%, 0px 0px, 0px 0px;
+  background-size: 500px, auto, auto;
+  background-repeat: no-repeat, repeat, repeat;
+}
