@@ -93,6 +93,12 @@
   margin: 0 2rem;
   border-radius: 30px;
   background: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease-out 0s, opacity 1000ms cubic-bezier(0.23, 1, 0.32, 1), transform 1000ms cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 1000ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.faq-card:hover {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 8px 16px 0 rgba(0, 0, 0, 0.15);
 }
 
 
