@@ -1,10 +1,10 @@
-
-.page-section {
-  padding: 0 0 2rem;
+body {
+  font-family: 'Noto Sans';
 }
 
-.masthead, .news, .faqs, .contact {
-  min-height: 40vh;
+.page-section {
+  min-height: 80vh;
+  padding: 0 0 2rem;
 }
 
 .masthead {
@@ -21,8 +21,17 @@
   padding-bottom: 2rem;
 }
 
-.masthead .cta {
-  padding-top:  2rem;
+.masthead h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.masthead p {
+  font-size: 1.4rem;
+}
+
+.cta {
+  margin: 4rem 0;
 }
 /*
 .masthead h1 {
@@ -49,6 +58,11 @@
 .section-header h1 {
   font-size: 3.8rem;
   line-height: 4.6rem;
+  font-weight: 700;
+}
+
+.navbar {
+  margin: 4rem 0 8rem;
 }
 
 .masthead h3 {
@@ -90,7 +104,7 @@
 
 .faq-card {
   min-height: 300px;
-  margin: 0 2rem;
+  margin: 0 1rem 1rem;
   border-radius: 30px;
   background: white;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 2px 12px 0 rgba(0, 0, 0, 0.1);
