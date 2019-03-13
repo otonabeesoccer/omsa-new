@@ -95,7 +95,6 @@ body {
     font-weight: 400;
 }
 
-
 .cta .btn-primary, .cta .btn-secondary {
   cursor: pointer;
   transition: box-shadow 0.15s ease,transform 0.15s ease;
