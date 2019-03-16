@@ -109,8 +109,7 @@ body {
   padding: 4rem 2rem;
 }
 
-.section-header h1, .masthead h2, .news h2 {
-  //letter-spacing: -0.033rem;
+.section-header h1, .masthead h2 {
   color: #fff;
   text-shadow: 0 4px 3px rgba(0, 0, 0, .2), 0 8px 13px rgba(0, 0, 0, .1), 0 18px 23px rgba(0, 0, 0, .1);
   background: -webkit-linear-gradient(#eee, #fff);
@@ -144,7 +143,7 @@ body {
   border: 0;
   border-radius: 3rem;
   margin: 0.8rem;
-  padding: 1.8vh 6vw;
+  padding: 2vh 6vw;
   font-size: 0.8rem;
   font-size: calc(1rem + 0.06vw);
   font-weight: 700;
@@ -248,17 +247,20 @@ body {
   box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
 }
 
-.news h2 {
+.news h2, .news .date {
   width: 100%;
+  color: #f32e13;
+  font-weight: 700;
+}
+
+.news h2 {
+  font-size: 2rem;
+  font-size: calc(1rem + 1.2vw);
 }
 
 .news p {
   font-size: 1.2rem;
   font-size: calc(1rem + 0.1vw);
-}
-
-.news .date {
-  color: #f52828;
 }
 
 
