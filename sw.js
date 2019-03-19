@@ -7,9 +7,7 @@ self.addEventListener('install', e => {
         `/styles.css`,
         `/bootstrap.min.css`,
         `/bg-grass.png`,
-        `/2019_OMSA_REGISTRATION.pdf`,
-        `/scripts/pwacompat.min.js`,
-        `/sounds/airhorn.mp3`
+        `/2019_OMSA_REGISTRATION.pdf`
       ])
           .then(() => self.skipWaiting());
     })
