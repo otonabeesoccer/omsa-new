@@ -8,7 +8,7 @@ body {
   font-size: calc(10px + .25vw);
 
   background-image: url(bg-grass.png), radial-gradient(circle closest-corner at 48% 112%, #3e97e6, #2c5499), linear-gradient(180deg, #3470b9, #3470b9);
-  background-position: 90% 110%, 0px 0px, 0px 0px;
+  background-position: 90% 100%, 0px 0px, 0px 0px;
   /* background-size: 500px, auto, auto; */
   /* background-repeat: no-repeat, repeat, repeat; */
   background-repeat: repeat-x, repeat, repeat;
