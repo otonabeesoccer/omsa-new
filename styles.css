@@ -61,9 +61,14 @@ body {
   color: #fff;
 }
 
-
 .logo {
-  margin: 8vh 0 12vh;
+  margin: 2rem 0;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    margin: 8vh 0 12vh;
+  }
 }
 
 .logo svg {
@@ -91,9 +96,12 @@ body {
   text-shadow: 3px 1px 6px rgba(0,0,0,.4);
 }
 
-.cta {
-  margin: 4rem 2.5vw 4rem 2.5vw;
+@media (min-width: 768px) {
+  .cta {
+    margin: 4rem 2.5vw 4rem 2.5vw;
+  }
 }
+
 /*
 .masthead h1 {
   text-align: center;
@@ -232,6 +240,7 @@ body {
   background-repeat: repeat-x, repeat, repeat;
   */
 }
+
 .news .container {
   margin-top: -2rem;
   padding: 0;
