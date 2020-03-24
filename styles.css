@@ -31,7 +31,7 @@ body {
 }
 
 .page-section {
-  min-height: 40vh;
+  min-height: 20vh;
   padding: 0 0 2rem;
 }
 
@@ -53,7 +53,7 @@ body {
 }
 
 .masthead h1, .masthead h2 {
-  margin-bottom: 4vw;
+  margin: 4vw 0;
 }
 
 
